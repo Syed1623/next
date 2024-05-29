@@ -21,6 +21,7 @@ const ServerDataFetching = async() => {
   console.log(slicedUsers)
   return (
     <div>
+      <h1>server page</h1>
       <ul className='flex flex-col justify-center items-center h-screen'>
       {
         slicedUsers && slicedUsers.length > 0 ?
